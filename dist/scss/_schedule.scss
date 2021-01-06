@@ -1,0 +1,25 @@
+.grid-content{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    
+}
+
+.department-banner{
+    position: relative;
+}
+.department-banner h2, .link{
+    position: absolute;
+    top: 30%;
+    color:$white-color;
+    text-transform: uppercase;
+}
+
+.department-banner .link{
+    margin-left: 10px;
+    padding:10px;
+    
+}
+.department-banner link a{
+    color:$white-color;
+    text-decoration: none;
+}

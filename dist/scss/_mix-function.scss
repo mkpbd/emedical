@@ -1,0 +1,4 @@
+@mixin transition-in-out($second:.2s) {
+    
+    transition: all $second ease-in-out;
+}

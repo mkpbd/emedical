@@ -1,0 +1,114 @@
+.profession-doctors{
+    padding: $padding-tb;
+
+    &__heading{
+        color:$primary-color;
+        font-size:1rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    &__button{
+        background: transparent;
+        border: none;
+        text-transform: lowercase;
+        margin-bottom: 2rem;
+        @include transition-in-out(.4s);
+        &:hover{
+            color:$primary-color;
+        }
+    }
+    &__button:after{
+        content: '';
+        position: relative;
+        bottom: 0;
+        left: 0;
+        background: url('../images/right-arrow.png');
+        height: 20px;
+        width: 80px;
+    }
+
+    .card-img-top{
+        
+        width: 50%;
+        display: block;
+        margin:50px auto;
+        border-radius: 50%;
+    }
+    &-hover{
+        @include transition-in-out($second:.3s);
+    }
+    &-hover:hover{
+        background: $primary-color;
+        color:$white-color;
+        cursor: pointer;
+    }
+
+    .social-icon__link{
+        @include transition-in-out($second:.3s);
+        color:$primary-color;
+        background-color: $white-color;
+        &:hover{
+            background-color: $secondary-color;
+        }
+    }
+
+    &__name{
+        font-size:1.2rem;
+        color:$secondary-color;
+        line-height: 2rem;
+        text-transform: capitalize;
+    }
+    &__title{
+        color:$info-color;
+        font-size:1rem;
+    }
+
+
+
+}
+
+.testimonial-area{
+    padding: $padding-tb;
+    background-color: $light-color;
+    .testimonial__heading{
+        color:$primary-color;
+        text-transform: uppercase;
+        padding: $padding-bottom;
+        letter-spacing: 2px;
+    }
+    .testimonial__main-heading{
+        padding: $padding-bottom;
+        color:$secondary-color;
+        
+    }
+}
+
+.client-card{
+    background-color: $white-color;
+    padding: 15px 10px;
+    @include transition-in-out($second:.3s) ;
+    &:hover{
+        background-color: $primary-color;
+        color:$white-color;
+    }
+}
+.client-image-border img{
+   
+    border-radius: 50%;
+    height: 60px;
+}
+.client__feedback__heading{
+    margin-left:10px;
+    &__name{
+        font-size: .9rem;
+        font-weight: map-get($font-weight, bold );
+        text-transform: capitalize;
+        color:$secondary-color;
+    }
+    &__degination{
+        font-size: .8rem;
+        font-weight: map-get($font-weight, bold );
+        text-transform: capitalize;
+        color:$info-color;
+    }
+}

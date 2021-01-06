@@ -1,0 +1,29 @@
+.banner{
+    padding:$padding-tb;
+    
+    background:url(../images/bannaer.jpg) center center;
+    height: 80vh;
+
+    #{&}__col{
+        width: 100vw;
+        height: 80vh;
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+    &__heading{
+        color:$secondary-color;
+    }
+
+    &__main-heading{
+        color:$primary-color;
+        font-weight: map-get($font-weight , bold );
+        line-height:3rem;
+        letter-spacing: 5px;
+    }
+    &__heading-last{
+        letter-spacing: 3px;
+    }
+    
+}

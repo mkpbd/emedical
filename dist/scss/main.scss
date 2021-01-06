@@ -1,0 +1,33 @@
+@import "./variables";
+@import "./box";
+@import "./header-top";
+@import "./mix-function";
+@import "./main-menu";
+@import './banner';
+@import './our-service';
+@import './about';
+@import './ourvision';
+@import './client-satiesfaction';
+@import './doctors';
+
+@import './feedback';
+@import './medical-department';
+
+@import './why-chose';
+@import './footer';
+@import './_schedule';
+@import './_blog';
+@import './_contactus';
+@import './_doctor-proflies';
+@import './cardiology';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: $white-color;
+    font-family: 'Roboto', sans-serif;
+    
+}

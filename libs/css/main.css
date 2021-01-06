@@ -1,0 +1,595 @@
+.header-top {
+  background-color: #3e3e3e;
+  color: #fff;
+  padding: .5rem 0;
+}
+
+.address__padding--last {
+  padding-left: 15px;
+}
+
+.social-icon {
+  padding: 5px;
+}
+
+.social-icon__nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-icon__link {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  padding: 5px;
+  color: #fff;
+}
+
+.menu-area {
+  padding: 1rem 0;
+}
+
+.banner {
+  padding: 3rem 0;
+  background: url(../images/bannaer.jpg) center center;
+  height: 80vh;
+}
+
+.banner .banner__col {
+  width: 100vw;
+  height: 80vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner__heading {
+  color: #3e3e3e;
+}
+
+.banner__main-heading {
+  color: #007df3;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: 5px;
+}
+
+.banner__heading-last {
+  letter-spacing: 3px;
+}
+
+.our-service-area {
+  padding: 3rem 0;
+}
+
+.our-service-area .our-service {
+  border: 2px solid #f5f5f5;
+  padding: .5rem 1rem;
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-align: center;
+}
+
+.our-service-area .our-service__image {
+  width: 50px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.our-service-area .our-service:hover {
+  border: none;
+  -webkit-box-shadow: 0px 0px 10px #303030;
+          box-shadow: 0px 0px 10px #303030;
+  cursor: pointer;
+}
+
+.our-service-area .our-service__heading {
+  color: #3e3e3e;
+  font-size: 1.3rem;
+}
+
+.our-service-area .our-service__paragraph {
+  color: #888888;
+  font-size: .9rem;
+}
+
+.our-service-area .our-service__btn {
+  text-decoration: none;
+  position: relative;
+}
+
+.our-service-area .our-service__btn:hover:after {
+  content: '';
+  position: absolute;
+  right: -75px;
+  bottom: 0px;
+  width: 70px;
+  height: 20px;
+  background: url("../images/right-arrow.png");
+  background-repeat: no-repeat;
+}
+
+.about-us-area {
+  padding: 3rem 0;
+  background: #f5f5f5;
+}
+
+.about-us-area .about {
+  color: #3e3e3e;
+}
+
+.about-us-area .about__heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #007df3;
+}
+
+.about-us-area .about__second-heading, .about-us-area .about__main-heading {
+  color: #3e3e3e;
+}
+
+.about-us-area .about__main-heading--last {
+  color: #007df3;
+}
+
+.about-us-area .about-details__paragraph2 {
+  color: #ddd;
+}
+
+.our-vision-area {
+  padding: 3rem 0;
+}
+
+.our-vision {
+  text-align: center;
+}
+
+.our-vision__heading {
+  text-transform: uppercase;
+  color: #007df3;
+}
+
+.our-vision__main-heading {
+  color: #3e3e3e;
+  margin-bottom: 1rem;
+}
+
+.our-vision__paragraph {
+  color: #888888;
+  padding-bottom: 1.5rem;
+}
+
+.our-vision-bottom-area {
+  background: #007df3;
+  padding: 3rem 0;
+}
+
+.patient-area {
+  -webkit-box-shadow: 0px 0px 10px #3e3e3e;
+          box-shadow: 0px 0px 10px #3e3e3e;
+  padding: 50px 10px;
+  position: relative;
+  top: -40px;
+}
+
+.patient__count {
+  color: #007df3;
+}
+
+.profession-doctors {
+  padding: 3rem 0;
+}
+
+.profession-doctors__heading {
+  color: #007df3;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.profession-doctors__button {
+  background: transparent;
+  border: none;
+  text-transform: lowercase;
+  margin-bottom: 2rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.profession-doctors__button:hover {
+  color: #007df3;
+}
+
+.profession-doctors__button:after {
+  content: '';
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: url("../images/right-arrow.png");
+  height: 20px;
+  width: 80px;
+}
+
+.profession-doctors .card-img-top {
+  width: 50%;
+  display: block;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+.profession-doctors-hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.profession-doctors-hover:hover {
+  background: #007df3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profession-doctors .social-icon__link {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #007df3;
+  background-color: #fff;
+}
+
+.profession-doctors .social-icon__link:hover {
+  background-color: #3e3e3e;
+}
+
+.profession-doctors__name {
+  font-size: 1.2rem;
+  color: #3e3e3e;
+  line-height: 2rem;
+  text-transform: capitalize;
+}
+
+.profession-doctors__title {
+  color: #888888;
+  font-size: 1rem;
+}
+
+.testimonial-area {
+  padding: 3rem 0;
+  background-color: #f5f5f5;
+}
+
+.testimonial-area .testimonial__heading {
+  color: #007df3;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.testimonial-area .testimonial__main-heading {
+  padding: 1.5rem;
+  color: #3e3e3e;
+}
+
+.client-card {
+  background-color: #fff;
+  padding: 15px 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.client-card:hover {
+  background-color: #007df3;
+  color: #fff;
+}
+
+.client-image-border img {
+  border-radius: 50%;
+  height: 60px;
+}
+
+.client__feedback__heading {
+  margin-left: 10px;
+}
+
+.client__feedback__heading__name {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #3e3e3e;
+}
+
+.client__feedback__heading__degination {
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #888888;
+}
+
+.latest-news-area {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+.dapartment-area {
+  padding: 3rem 0;
+}
+
+.dapartment-area .department {
+  text-align: center;
+}
+
+.dapartment-area .department__small-heading {
+  text-transform: uppercase;
+  color: #007df3;
+  padding-bottom: 1.5rem;
+}
+
+.dapartment-area .department__main-heading {
+  color: #3e3e3e;
+  margin-bottom: 1rem;
+}
+
+.dapartment-area .department__paragraph {
+  margin-top: 1rem;
+  color: #888888;
+  margin-bottom: 1rem;
+}
+
+.dapartment-area .department-card {
+  padding: 15px 20px;
+  -webkit-box-shadow: 0px 0px 8px #3e3e3e;
+          box-shadow: 0px 0px 8px #3e3e3e;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.dapartment-area .department-card:hover {
+  background: #007df3;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.chose-our-medical-area {
+  padding: 3rem 0;
+  background: #f5f5f5;
+}
+
+.our-medical__heading {
+  color: #007df3;
+  letter-spacing: 3px;
+  margin-bottom: 2.5rem;
+}
+
+.our-medical__paragraph {
+  margin-top: 2rem;
+}
+
+.our-medical__list {
+  list-style: none;
+}
+
+.our-medical__list .list-item {
+  margin-top: 10px;
+}
+
+.our-medical__list .list-item a {
+  text-decoration: none;
+  color: #007df3;
+}
+
+.our-medical__list .list-item-last {
+  color: #3e3e3e;
+  margin-left: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.our-medical__list .list-item-last:hover {
+  text-decoration: underline;
+}
+
+.footer-top-area {
+  padding: 3rem 0;
+  background: #3e3e3e;
+  color: #fff;
+}
+
+.footer-bottom {
+  background: #303030;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+.footer-top__logo__description {
+  font-weight: 300;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+.footer-top__quick-link-nav {
+  margin-top: 1.5rem;
+}
+
+.footer-top-__contact__address {
+  margin-top: 1.5rem;
+}
+
+.footer-top__social__message {
+  margin-top: 1.5rem;
+}
+
+.footer-bottom-right {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.quick__link {
+  margin-bottom: .6rem;
+}
+
+.quick__link a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.quick__link a:hover {
+  color: #007df3;
+}
+
+.footer-top__quick-link-nav {
+  list-style: none;
+}
+
+.grid-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+}
+
+.department-banner {
+  position: relative;
+}
+
+.department-banner h2, .link {
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.department-banner .link {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.department-banner link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.health-care {
+  position: relative;
+}
+
+.health-care__link-btn {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.health-care__heading, .health-care__heading {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+}
+
+.health-care__link {
+  margin-bottom: 1.5rem;
+}
+
+.health-care__view--nav {
+  motion: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.health-care__link {
+  text-decoration: none;
+}
+
+.middle-blog-post {
+  position: relative;
+}
+
+.middle-blog-post .middle-blog-post__linkss {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  text-decoration: none;
+  background-color: #007df3;
+  padding: 4px 5px;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.category-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-nav .category-item-link {
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.middle-blog-post__icon a {
+  font-size: .8rem;
+}
+
+.middle-blog-post-heading {
+  font-size: 1.2rem;
+}
+
+.blog-post {
+  position: relative;
+}
+
+.blog-post .blog-post__linksss {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.blog-post-heading {
+  font-size: 1.2rem;
+}
+
+.default-icon {
+  font-size: 4rem;
+  color: #007df3;
+  margin-left: 1rem;
+}
+
+.name-information h3, .qualification h3, .qualification h3 {
+  font-size: 1.2rem;
+}
+
+.cardiology {
+  background: #888888;
+}
+
+.cardiology-section {
+  background: blue;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/our-vision.scss"
+    ],
+    "names": [],
+    "file": "our-vision.css"
+}

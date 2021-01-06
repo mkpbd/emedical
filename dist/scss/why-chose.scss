@@ -1,0 +1,36 @@
+.chose-our-medical-area{
+    padding:$padding-tb ;
+    background: $light-color;
+}
+.our-medical{
+    
+   &__heading{
+       color:$primary-color;
+       letter-spacing: 3px;
+       margin-bottom: 2.5rem;
+   }
+
+   &__paragraph{
+    margin-top:2rem;
+   }
+
+  &__list{
+    list-style: none;
+    .list-item{
+        margin-top:10px;
+        & a{
+            text-decoration: none;
+            color:$primary-color;
+        }
+
+        &-last{
+            color:$secondary-color;
+            margin-left:10px;
+           @include transition-in-out(.3s);
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+   }
+}

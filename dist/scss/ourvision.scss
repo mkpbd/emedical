@@ -1,0 +1,27 @@
+.our-vision-area{
+    padding:3rem 0;
+
+}
+
+.our-vision{
+    text-align: center;
+    &__heading{
+        text-transform: uppercase;
+        color:$primary-color;
+    }
+    &__main-heading{
+        
+        color:$secondary-color;
+        margin-bottom: 1rem;
+        
+    }
+
+    &__paragraph{
+        color:$info-color;
+        padding-bottom: $padding-bottom;
+    }
+}
+.our-vision-bottom-area{
+    background: $primary-color;
+    padding: $padding-tb;
+}

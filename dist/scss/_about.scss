@@ -1,0 +1,23 @@
+.about-us-area{
+    padding:$padding-tb;
+    background:$light-color;
+    .about{
+        color:$secondary-color;
+        &__heading{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color:$primary-color;
+        }
+        &__second-heading,&__main-heading{
+            color:$secondary-color;
+        }
+        &__main-heading--last{
+            color:$primary-color;
+           
+        }
+
+        &-details__paragraph2{
+            color:#ddd;
+        }
+    }
+}

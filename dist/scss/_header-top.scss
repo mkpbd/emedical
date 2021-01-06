@@ -1,0 +1,27 @@
+.header-top{
+    background-color: $secondary-color;
+    color:$white-color;
+    padding:.5rem 0;
+
+   
+}
+.address__padding--last{
+    padding-left: 15px;
+}
+.social-icon{
+    padding: 5px;
+
+    &__nav{
+        margin:0;
+        padding: 0;
+        list-style: none;
+        
+    }
+    &__link{
+       transition: all .4s ease-in-out;
+        padding:5px;
+        color:$white-color;
+
+
+    }
+}

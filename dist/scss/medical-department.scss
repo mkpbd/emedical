@@ -1,0 +1,33 @@
+.dapartment-area{
+    padding:$padding-tb;
+    .department{
+        text-align: center;
+
+        &__small-heading{
+            text-transform: uppercase;
+            color:$primary-color;
+            padding-bottom:$padding-bottom;
+        }
+        &__main-heading{
+            color:$secondary-color;
+           margin-bottom: $margin-bottom;
+        }
+        &__paragraph{
+            margin-top: $margin-bottom;
+            color:$info-color;
+            margin-bottom: $margin-bottom;
+        }
+        &-card{
+            padding:15px 20px;
+           box-shadow: 0px 0px 8px $secondary-color;
+          @include transition-in-out($second:.3s);
+          &:hover{
+              background: $primary-color;
+              border: none;
+              cursor: pointer;
+              color:$white-color;
+          }
+        }
+    }
+}
+
